@@ -1,0 +1,73 @@
+.chh-header {
+  background-color: black;
+  height: 100vh;
+}
+.chh-header-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.chh-header-bkg-img {
+  object-fit: contain;
+  height: 60%;
+}
+
+.chh-header-text {
+  margin-top: 2rem;
+  font-size: 30px;
+  color: white;
+}
+
+.chh-header-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chh-header-btn {
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Body */
+.chh-body-section {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chh-body-section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.chh-body-carousel {
+  height: 37.5rem;
+  width: 56.25rem;
+}
+
+.chh-body-image {
+  height: 37.5rem;
+  width: 50rem;
+  object-fit: contain;
+}
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.chh-body-accordion {
+  width: 100%;
+}

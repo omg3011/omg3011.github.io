@@ -1,0 +1,65 @@
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+.header-wrapper {
+  position: relative;
+  background: url("../../images/bkg4.gif") no-repeat;
+  background-color: rgba(0, 0, 0, 1);
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+#color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-info h1 {
+  /* color: var(--primary-orange);
+  text-shadow: 0.5px 0.5px rgb(250, 250, 250); */
+  color: var(--primary-white);
+  font-size: 60px;
+}
+.main-info h7 {
+  margin-top: 30px;
+  color: var(--primary-white);
+  /* text-shadow: 0.5px 0.5px rgb(250, 250, 250); */
+}
+
+.typed-text {
+  font-size: 1rem;
+  color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}

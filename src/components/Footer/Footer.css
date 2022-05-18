@@ -1,0 +1,21 @@
+.footer {
+  background-color: black;
+  height: 200px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-title {
+  color: white;
+}
+
+.footer-credits {
+  color: grey;
+  font-size: 12px;
+}

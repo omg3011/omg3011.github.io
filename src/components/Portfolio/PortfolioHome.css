@@ -1,0 +1,44 @@
+.ph-header {
+  /* background-color: black; */
+  background: url("../../images/bkg2.gif") no-repeat;
+  background-color: black;
+  height: 80vh;
+  background-position: center;
+}
+
+.ph-header-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ph-header-title {
+  color: white;
+  font-size: 60px;
+}
+.ph-header-btn {
+  margin-top: 30px;
+}
+
+.ph-header-subtitle {
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.ph-body {
+  background-color: white;
+}
+
+.ph-body-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.ph-body-row {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
